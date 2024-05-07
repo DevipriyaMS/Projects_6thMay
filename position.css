@@ -1,0 +1,28 @@
+body{
+    height: 150vh;
+}
+.violet{
+    background-color: violet;
+}
+.indigo{
+    background-color: indigo;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.orange{
+    background-color: orange;
+}
+.div_style{
+    height: 50px;
+    width: 100%;
+}

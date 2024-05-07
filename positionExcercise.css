@@ -1,0 +1,45 @@
+body{
+    background-color: oldlace;
+    height: 70vh;
+}
+.navigation{
+    background-color: rgb(203, 185, 185);
+    margin: -15px;
+    position: sticky;
+    top: 0%;
+    width: 100%;
+}
+.navigation ul{
+    list-style-type: none;
+    text-align: center;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+.navigation ul li{
+    display: inline;
+    text-decoration: none;
+    color: white;
+    padding-left: 15px;
+}
+.footer{
+    background-color:  rgb(203,185, 185);
+    margin-bottom: -15px;
+    color: black;
+    font-style: oblique;
+    font-size: larger;
+    text-align: center;
+    padding: 20px;
+    height: 50px;
+    position: relative;
+    top: 70vh;
+}
+.container{
+    position: relative;
+}
+.sidebar{
+    background-color: rgb(203,185, 185);
+    position: fixed;
+    width: 64px;
+    height: 100%;
+
+}

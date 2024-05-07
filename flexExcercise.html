@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flexbox Navigation Bar</title>
+   
+    <style>
+        
+.nav-bar {
+    background: lightgray; 
+    padding: 10px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.logo {
+align-items: flex-start;
+flex-shrink: 0;
+}
+
+
+.menu {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+.search-box {
+align-items: flex-end;
+flex-shrink: 0;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="logo">MyLogo</div> 
+        <div class="menu">
+            <span>Home</span>
+            <span>About</span>
+            <span>Services</span>
+            <span>Contact</span>
+        </div> 
+        <div class="search-box">
+            <input type="text" placeholder="Search...">
+        </div>
+    </div>
+</body>
+</html>
